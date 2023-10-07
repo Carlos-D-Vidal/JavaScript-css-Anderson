@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root
+{
+    --color-primary-100: #2E245E;
+    --color-secondary-100: #37268C;
+    --color-gray-button: #333333;
+    --color-gray-aux: #828282;
+    --color-gray-back: #F5F5F5;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+main{
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    gap: 32px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--color-gray-button);
+    margin: 10px;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    color: var(--color-gray-back);
+    background-color: #37268C;
+}
+#btn-nav
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--color-gray-button);
+    transition: all 0.5s ease;
+    border: none;
+    margin: 2px;
+}
+#btn-nav:hover
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    transform: scale(1.05);
+    width: auto;
+}
+button{
+    cursor: pointer;
+}
+.btn-add:hover
+{
+    color: var(--color-primary-100);
+    text-decoration: underline;
+}
+li,ul{
+    list-style: none;
+}
+nav
+{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+li:hover
+{
+    outline: auto var(--color-secondary-100);
+}
+li
+{
+    max-width: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+    border: #828282;
+}
+ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+img
+{
+    max-width: 100%;
+    height: auto;
+    background-color: var(--color-gray-back);
+}
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+h3
+{
+    background-color: var(--color-primary-100);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--color-gray-back);
+    align-self: flex-start;
+}
+.p-name
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: var(--color-gray-button);
+    font-size: larger;
+}
+.p-descr
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: var(--color-gray-button);
+    font-size: small;
+}
+.p-value
+{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: var(--color-secondary-100);
+    font-size: medium;
+}
+.btn-add
+{
+    border: none;
+}
+.btn-remove
+{
+    border: none
+}
+#products
+{
+    width: 75%;
+}  
+#cart
+{
+    display: flex;
+    flex-direction: column;
+} 
+input
+{
+    border: none;
+    
+}
